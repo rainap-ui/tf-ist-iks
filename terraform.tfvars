@@ -1,5 +1,3 @@
-#apikey=""
-#secretkey="../Secretkey.txt"
 iksclustername="iks-cluster01"
 num-control-nodes=1
 num-worker-nodes=1
@@ -28,7 +26,7 @@ k8s_worker-policyName="iks-k8s-vm-instance"
 organization="default"
 tags = [
   {
-    "key" : "managed_by"
+    "key" : "managed_by" 
     "value" : "IST"
   },
   {
