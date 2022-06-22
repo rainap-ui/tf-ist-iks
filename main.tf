@@ -95,6 +95,7 @@ module "iks_cluster" {
 
   # Addon Profile and Policies (To create new change "createNew" to 'true' and uncomment variables and modify them to meet your needs.)
   # This is an Optional item.  Comment or remove to not use.  Multiple addons can be configured.
+  /*
   addons = [
     {
       createNew       = false
@@ -115,7 +116,7 @@ module "iks_cluster" {
       releaseVersion = "0.2.61-helm3"
     }
   ]
-
+*/
   # Worker Node Instance Type (To create new change "use_existing" to 'false' and uncomment variables and modify them to meet your needs.)
   instance_type = {
     use_existing = true
