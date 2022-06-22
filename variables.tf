@@ -62,7 +62,7 @@ variable "ip_pool-gateway" {
 }
 
 variable "ip_pool-primary-dns" {
-    type = string
+    type = list(string)
 }
 variable "sysconfig-policy-name" {
     type = string
