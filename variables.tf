@@ -67,21 +67,6 @@ variable "ip_pool-primary-dns" {
 variable "sysconfig-policy-name" {
     type = string
 }
-variable "sysconfig-dns-servers" {
-    type=list
-}
-
-variable "sysconfig-ntp-servers" {
-    type=list
-}
-
-variable "sysconfig-domain-name" {
-    type=string
-}
-
-variable "sysconfig-timezone" {
-    type=string
-}
 
 variable "k8s_network-name" {
     type = string
