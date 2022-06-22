@@ -1,8 +1,9 @@
+vc_password="Cisco!123"
 iksclustername="iks-cluster01"
 num-control-nodes=1
 num-worker-nodes=1
 num-load-balancer=1
-num-worker-nodes-max=1
+num-worker-nodes-max=2
 ssh_user="iksadmin"
 ip_pool-name="iks-ippool"
 ip_pool-starting-address="172.16.0.110"
@@ -21,8 +22,6 @@ k8s_network-service-cidr="100.64.0.0/24"
 k8s_network-cni="Calico"
 k8s_version-policy-name="iks-version"
 k8s_version-version-name="1.21.11-iks.2"
-k8s_version-description="version"
-k8s_worker-policyName="iks-k8s-vm-instance"
 organization="default"
 tags = [
   {
