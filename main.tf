@@ -11,7 +11,7 @@ module "iks_cluster" {
   # Kubernetes Cluster Profile  Adjust the values as needed.
   cluster = {
     name                = var.iksclustername
-    action              = "Deploy"
+    action              = "Unassign"
     wait_for_completion = false
     worker_nodes        = var.num-worker-nodes
     load_balancers      = var.num-load-balancer
