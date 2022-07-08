@@ -16,8 +16,8 @@ k8s_network-name="iks-k8sNetwork"
 k8s_network-pod-cidr="100.65.0.0/16"
 k8s_network-service-cidr="100.64.0.0/24"
 k8s_network-cni="Calico"
-k8s_version-policy-name="iks-version"
-k8s_version-version-name="1.21.11-iks.2"
+k8s_version-policy-name="iks-version-1.21.13"
+k8s_version-version-name="1.21.13-iks.0"
 organization="default"
 tags = [
   {
