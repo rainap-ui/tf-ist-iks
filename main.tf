@@ -34,8 +34,12 @@ module "iks_cluster" {
 
   # Sysconfig Policy (UI Reference NODE OS Configuration) (To create new change "use_existing" to 'false' uncomment variables and modify them to meet your needs.)
   sysconfig = {
-    use_existing = true
+    use_existing = false
     name         = var.sysconfig-policy-name
+    #domain_name  = "rich.ciscolabs.com"
+    timezone     = "America/New_York"
+    ntp_servers  = var.ntp-servers
+    dns_servers  = var.ip_pool-primary-dns
   }
 
   # Kubernetes Network CIDR (To create new change "use_existing" to 'false' uncomment variables and modify them to meet your needs.)

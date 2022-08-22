@@ -67,7 +67,9 @@ variable "ip_pool-primary-dns" {
 variable "sysconfig-policy-name" {
     type = string
 }
-
+variable "ntp-servers" {
+    type = list(string)
+}
 variable "k8s_network-name" {
     type = string
 }
