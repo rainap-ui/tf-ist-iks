@@ -1,5 +1,5 @@
 vc_password="Cisco!123"
-iksclustername="iks-cluster01"
+iksclustername="tf-iks-cluster01"
 num-control-nodes=1
 num-worker-nodes=1
 num-load-balancer=1
